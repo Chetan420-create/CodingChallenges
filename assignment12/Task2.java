@@ -17,7 +17,7 @@ public class Task2 {
 		
 		for(int i =0;i<num1.length;i++) { //loop for traversing first array
 			
-			for(int j=0;j<num2.length;j++) {  //loop for traversing first array
+			for(int j=0;j<num2.length;j++) {  //loop for traversing second array
 				
 				// check the element is present in both arrays and not present in new array 
 				if(num1[i] == num2[j] &&  !a.contains(num1[i]))
@@ -35,3 +35,4 @@ public class Task2 {
 	}
 
 }
+
